@@ -2,8 +2,9 @@ spring:
 #  main:
 #    allow-bean-definition-overriding: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/axon
-    username: axon
+    url: jdbc:postgresql://localhost:8081/postgres
+    username: postgres
+    password: thepassword
     hikari:
       max-lifetime: 1200000
   jpa:
